@@ -21,7 +21,7 @@ async function connectToDb() {
 
 const getDb = () => {
     if (!db) {
-        throw new Error('Database not initialized! Call connectToDb first.');
+        throw new Error('Database not initialised! Call connectToDb first.');
     }
     return db;
 };
